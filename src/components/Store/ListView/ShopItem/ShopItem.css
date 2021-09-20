@@ -1,0 +1,39 @@
+.shop-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.shop-item:nth-child(n + 2) {
+    margin-top: 5px;
+}
+
+.shop-item_img {
+    width: 100px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100px;
+}
+
+.shop-item_h2 {
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.shop-item_color {
+    text-transform: lowercase;
+    line-height: 0;
+    color: gray;
+}
+
+.shop-item_price {
+    color: red;
+}
+
+.shop-item_price::before {
+    content: '$';
+} 

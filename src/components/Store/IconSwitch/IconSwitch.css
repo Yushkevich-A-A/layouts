@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.block-switch {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.material-icons {
+    font-size: 36px;  /* Preferred icon size */
+    display: inline-block;
+    color: #5f6368;
+    user-select: none;
+  }
